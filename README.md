@@ -1,5 +1,7 @@
 # vite dynamic-require bug in dev mode
 
+[Issue](https://github.com/vitejs/vite/issues/17587)
+
 ## Steps to reproduce
 
 ```bash
