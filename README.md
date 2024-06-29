@@ -1,10 +1,14 @@
 # vite dynamic-require bug in dev mode
 
+## Steps to reproduce
+
 ```bash
 npm ci
 npm run move-folders-to-node_modules
 npm run dev
 ```
+
+## Problem
 
 1. If a package in node_modules (dynamic-require-concat in this repository) has dynamic require with `.concat` like:
 
