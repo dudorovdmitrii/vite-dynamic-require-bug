@@ -6,13 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "copy-folders-to-node_modules": "git mv dynamic-require/dynamic-require-concat node_modules/dynamic-require-concat && git mv dynamic-require/dynamic-require-template-string node_modules/dynamic-require-template-string"
+    "move-folders-to-node_modules": "git mv dynamic-require/dynamic-require-concat node_modules/dynamic-require-concat && git mv dynamic-require/dynamic-require-template-string node_modules/dynamic-require-template-string"
   },
   "devDependencies": {
     "vite": "^5.3.1"
-  },
-  "dependencies": {
-    "@rollup/plugin-commonjs": "^26.0.1",
-    "dynamic-require": "0.0.0"
   }
 }

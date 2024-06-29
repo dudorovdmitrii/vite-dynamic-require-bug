@@ -2,7 +2,7 @@
 
 ```bash
 npm ci
-npm run copy-folders-to-node_modules
+npm run move-folders-to-node_modules
 npm run dev
 ```
 
