@@ -1,5 +1,11 @@
 # vite dynamic-require bug in dev mode
 
+```bash
+npm ci
+npm run copy-folders-to-node_modules
+npm run dev
+```
+
 1. If a package in node_modules (dynamic-require-concat in this repository) has dynamic require with `.concat` like:
 
 ```ts
